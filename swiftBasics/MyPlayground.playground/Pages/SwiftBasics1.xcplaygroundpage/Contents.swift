@@ -48,22 +48,22 @@ struct CommonInfo {
     var hobbies : String?
 }
 
-let emplPers1 = Personal(employeeID: 10, name: "Satyam", country: Country.india, address: "12 gandhi Nagar, Etawah", hobbies: "chess")
+let emplPers1 = Personal(employeeID: 10, name: "Gaurav", country: Country.india, address: "12 gandhi Nagar, Etawah", hobbies: "chess")
 let emplPers2 = Personal(employeeID: 11, name: "Chirag", country: Country.america, address: "19 Ashok Nagar, Delhi", hobbies: "Guitar")
 let emplPers3 = Personal(employeeID: 12, name: "Saif", country: Country.japan, address: "12D Gomti Nagar, Lucknow", hobbies: "Dance")
 let emplPers4 = Personal(employeeID: 13, name: "Talha", country: Country.china, address: "123/74 Poytechnic, Lucknow", hobbies: "chess")
 let emplPers5 = Personal(employeeID: 14, name: "Raymon", country: Country.britain, address: "868 Cant, Bareilly", hobbies: "Shooting")
-let emplPers6 = Personal(employeeID: 15, name: "Gaurav", country: Country.india, address: "15 Miltery Nagar, Dehradun", hobbies: "Swimmimg")
+let emplPers6 = Personal(employeeID: 15, name: "Satyam", country: Country.india, address: "15 Miltery Nagar, Dehradun", hobbies: "Swimmimg")
 
 var arrPer : [Personal] = [emplPers1, emplPers2, emplPers3, emplPers4, emplPers5, emplPers6]
 
 
-let emplPro1 = Professional(employeeID: 10, name: "Satyam", department: .IOS, branch: Country.india, experience: 3)
+let emplPro1 = Professional(employeeID: 10, name: "Gaurav", department: .IOS, branch: Country.india, experience: 3)
 let emplPro2 = Professional(employeeID: 11, name: "Chirag", department: .Android, branch: Country.america, experience: 4)
 let emplPro3 = Professional(employeeID: 12, name: "Saif  ", department: .FullStack, branch: Country.japan, experience: 1)
 let emplPro4 = Professional(employeeID: 13, name: "Talha ", department: .JVM, branch: Country.china, experience: 2)
 let emplPro5 = Professional(employeeID: 14, name: "Raymon", department: .IOS, branch: Country.britain, experience: 3)
-let emplPro6 = Professional(employeeID: 15, name: "Gaurav", department: .Web, branch: Country.india, experience: 5)
+let emplPro6 = Professional(employeeID: 15, name: "Satyam", department: .Web, branch: Country.india, experience: 5)
 
 var arrPro: [Professional] = [emplPro1, emplPro2, emplPro3, emplPro4, emplPro5, emplPro6]
 
