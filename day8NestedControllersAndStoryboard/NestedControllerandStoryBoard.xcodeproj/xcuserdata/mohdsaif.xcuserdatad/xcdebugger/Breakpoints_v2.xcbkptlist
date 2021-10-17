@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B858DDC7-BBBE-4EDA-96F5-D004D9714E43"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "749B0880-74DC-470E-B727-D8063B16AAF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NestedControllerandStoryBoard/Ques4VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B1F3472-4C29-4CC5-98D7-6EA4420D01FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NestedControllerandStoryBoard/Ques4VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B1F3472-4C29-4CC5-98D7-6EA4420D01FD - 9dcf8acd19c7c0b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NestedControllerandStoryBoard.Ques4VC.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NestedControllerandStoryBoard.Ques4VC&gt;"
+                  moduleName = "NestedControllerandStoryBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdsaif/Desktop/NestedControllerandStoryBoard/NestedControllerandStoryBoard/Ques4VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "5B1F3472-4C29-4CC5-98D7-6EA4420D01FD - 91135dd54bfbe395"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NestedControllerandStoryBoard.Ques4VC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NestedControllerandStoryBoard.Ques4VC&gt;"
+                  moduleName = "NestedControllerandStoryBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdsaif/Desktop/NestedControllerandStoryBoard/NestedControllerandStoryBoard/Ques4VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
