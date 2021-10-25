@@ -229,27 +229,15 @@
                                 </segments>
                                 <connections>
                                     <action selector="indexChanged:" destination="FA8-ZO-N8I" eventType="touchUpInside" id="zRU-dg-igp"/>
+                                    <action selector="segmentControlButton:" destination="FA8-ZO-N8I" eventType="valueChanged" id="gpq-v4-i0T"/>
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOU-kJ-YnA">
                                 <rect key="frame" x="20" y="344" width="374" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" segment selected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UT0-Tk-QL4">
-                                        <rect key="frame" x="154.5" y="23" width="140.5" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a segment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoB-dC-viR">
+                                        <rect key="frame" x="37.5" y="20" width="299" height="40"/>
                                         <color key="backgroundColor" red="1" green="0.15464738010000001" blue="0.36003464460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="K3h-EA-tNf"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoB-dC-viR">
-                                        <rect key="frame" x="80" y="23" width="74.5" height="35"/>
-                                        <color key="backgroundColor" red="1" green="0.15464738010000001" blue="0.36003464460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="Fzo-2r-uRd"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -257,11 +245,11 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.15464738010000001" blue="0.36003464460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="QoB-dC-viR" firstAttribute="leading" secondItem="NOU-kJ-YnA" secondAttribute="leading" constant="80" id="OSV-uk-qI5"/>
-                                    <constraint firstItem="UT0-Tk-QL4" firstAttribute="leading" secondItem="QoB-dC-viR" secondAttribute="trailing" id="Y8z-2a-rC8"/>
+                                    <constraint firstAttribute="bottom" secondItem="QoB-dC-viR" secondAttribute="bottom" constant="20" id="aLn-4i-sGX"/>
+                                    <constraint firstItem="QoB-dC-viR" firstAttribute="width" secondItem="NOU-kJ-YnA" secondAttribute="width" multiplier="0.8" id="fsT-0g-5OC"/>
                                     <constraint firstAttribute="height" constant="80" id="ixE-NX-woS"/>
-                                    <constraint firstItem="QoB-dC-viR" firstAttribute="top" secondItem="NOU-kJ-YnA" secondAttribute="top" constant="23" id="kJS-gL-nPQ"/>
-                                    <constraint firstItem="UT0-Tk-QL4" firstAttribute="top" secondItem="NOU-kJ-YnA" secondAttribute="top" constant="23" id="pr0-x5-FJf"/>
+                                    <constraint firstItem="QoB-dC-viR" firstAttribute="centerX" secondItem="NOU-kJ-YnA" secondAttribute="centerX" id="jAf-Ew-8NU"/>
+                                    <constraint firstItem="QoB-dC-viR" firstAttribute="top" secondItem="NOU-kJ-YnA" secondAttribute="top" constant="20" id="t2P-zG-R0a"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -281,6 +269,8 @@
                     <connections>
                         <outlet property="SegmentControl" destination="Kx0-IW-Bj3" id="hlR-o0-aap"/>
                         <outlet property="TextLabel" destination="QoB-dC-viR" id="z41-8X-q2Q"/>
+                        <outlet property="mytextLable" destination="QoB-dC-viR" id="Q5j-IG-S6i"/>
+                        <outlet property="segmentControlOutlet" destination="Kx0-IW-Bj3" id="uyg-Xl-fFI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Qz-wZ-MyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
