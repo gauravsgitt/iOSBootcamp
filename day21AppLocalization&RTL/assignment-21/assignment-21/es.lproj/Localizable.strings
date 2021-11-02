@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  assignment-21
+
+  Created by Gaurav Bisht on 02/11/21.
+  
+*/
+"nameLabel" = "Nombre";
+"stateLabel" = "estado";
+"countryLabel" = "País";
+"dobLabel" = "DOB";
+"lotteryLabel" = "Lotería Ganada";
