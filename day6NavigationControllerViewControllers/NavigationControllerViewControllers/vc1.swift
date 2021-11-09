@@ -17,6 +17,7 @@ class vc1: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "View 1"
         textToPassTextField.delegate = self
     }
     

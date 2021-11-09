@@ -12,7 +12,7 @@ class vc2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "View 2"
     }
   
     @IBAction func PopButton(_ sender: UIButton) {

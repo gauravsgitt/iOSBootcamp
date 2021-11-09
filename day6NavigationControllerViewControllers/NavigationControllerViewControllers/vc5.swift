@@ -12,10 +12,12 @@ class vc5: UIViewController {
 
     
     @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var segueToVC6Button: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "View 5"
         textLabel.text = textToPass
     }
     

@@ -12,7 +12,7 @@ class vc4: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "View 4"
     }
     
     @IBAction func PushToVC5Button(_ sender: UIButton) {

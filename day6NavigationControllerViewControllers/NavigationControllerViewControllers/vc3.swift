@@ -12,7 +12,7 @@ class vc3: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "View 3"
     }
     
     @IBAction func DismissButton(_ sender: UIButton) {

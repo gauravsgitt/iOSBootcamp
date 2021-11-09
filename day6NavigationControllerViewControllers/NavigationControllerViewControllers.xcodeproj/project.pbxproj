@@ -17,6 +17,7 @@
 		F49DC914270EFD66003159DB /* vc3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DC913270EFD66003159DB /* vc3.swift */; };
 		F49DC916270EFD73003159DB /* vc4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DC915270EFD73003159DB /* vc4.swift */; };
 		F49DC918270EFD7E003159DB /* vc5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DC917270EFD7E003159DB /* vc5.swift */; };
+		F4C5E9262739704600E838AC /* VC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C5E9252739704600E838AC /* VC6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F49DC913270EFD66003159DB /* vc3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc3.swift; sourceTree = "<group>"; };
 		F49DC915270EFD73003159DB /* vc4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc4.swift; sourceTree = "<group>"; };
 		F49DC917270EFD7E003159DB /* vc5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc5.swift; sourceTree = "<group>"; };
+		F4C5E9252739704600E838AC /* VC6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				F49DC906270EF963003159DB /* Assets.xcassets */,
 				F49DC908270EF963003159DB /* LaunchScreen.storyboard */,
 				F49DC90B270EF963003159DB /* Info.plist */,
+				F4C5E9252739704600E838AC /* VC6.swift */,
 			);
 			path = NavigationControllerViewControllers;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				F49DC902270EF961003159DB /* vc1.swift in Sources */,
 				F49DC916270EFD73003159DB /* vc4.swift in Sources */,
 				F49DC8FE270EF961003159DB /* AppDelegate.swift in Sources */,
+				F4C5E9262739704600E838AC /* VC6.swift in Sources */,
 				F49DC900270EF961003159DB /* SceneDelegate.swift in Sources */,
 				F49DC918270EFD7E003159DB /* vc5.swift in Sources */,
 				F49DC912270EFD1B003159DB /* vc2.swift in Sources */,
