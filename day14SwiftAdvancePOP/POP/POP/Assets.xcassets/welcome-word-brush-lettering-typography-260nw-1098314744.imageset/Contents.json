@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "welcome-word-brush-lettering-typography-260nw-1098314744.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
