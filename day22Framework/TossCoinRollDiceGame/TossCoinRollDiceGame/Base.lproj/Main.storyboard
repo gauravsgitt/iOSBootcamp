@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W3z-Si-tNv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="TossCoinRollDiceGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="xgX-fs-iLM">
+                                <rect key="frame" x="108" y="378" width="198" height="140"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aY-E5-GGt">
+                                        <rect key="frame" x="0.0" y="0.0" width="198" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.1265690243" green="0.34138689370000003" blue="0.40077319589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Toss a Coin">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="CwI-5g-mWu" kind="show" id="ee9-iR-p5u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqW-RC-Hjq">
+                                        <rect key="frame" x="0.0" y="90" width="198" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.1265690243" green="0.34138689370000003" blue="0.40077319589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Roll the Dice">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="47s-cI-cwj" kind="show" id="77Z-DA-xuP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.17119536256399204" green="0.5" blue="0.1614386278208827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="xgX-fs-iLM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="27B-oa-7Cu"/>
+                            <constraint firstItem="xgX-fs-iLM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oMh-Um-HQc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Zj-W8-zIr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="65.625"/>
+        </scene>
+        <!--Coin View Controller-->
+        <scene sceneID="xDg-Qz-fj8">
+            <objects>
+                <viewController storyboardIdentifier="CoinViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CwI-5g-mWu" customClass="CoinViewController" customModule="TossCoinRollDiceGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ydW-Vx-6lv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ap-2D-4Gh">
+                                <rect key="frame" x="107" y="373" width="200" height="150"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Sha-nh-yvY"/>
+                                    <constraint firstAttribute="width" constant="200" id="hIB-ji-IwT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toss the Coin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37V-ce-LA5">
+                                <rect key="frame" x="30" y="128" width="354" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwI-ub-uZv">
+                                <rect key="frame" x="50" y="573" width="314" height="60"/>
+                                <color key="backgroundColor" red="0.227009777" green="1" blue="0.33587188759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ce4-RE-BMg"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Toss me!">
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tossCoinBttn:" destination="CwI-5g-mWu" eventType="touchUpInside" id="jX6-RG-Os2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A1Q-kh-ATZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OwI-ub-uZv" firstAttribute="leading" secondItem="A1Q-kh-ATZ" secondAttribute="leading" constant="50" id="7fC-Ej-IAh"/>
+                            <constraint firstItem="A1Q-kh-ATZ" firstAttribute="trailing" secondItem="OwI-ub-uZv" secondAttribute="trailing" constant="50" id="JKo-8C-6N8"/>
+                            <constraint firstItem="A1Q-kh-ATZ" firstAttribute="trailing" secondItem="37V-ce-LA5" secondAttribute="trailing" constant="30" id="TPS-0e-AG4"/>
+                            <constraint firstItem="4Ap-2D-4Gh" firstAttribute="centerX" secondItem="ydW-Vx-6lv" secondAttribute="centerX" id="Uij-oY-V1d"/>
+                            <constraint firstItem="4Ap-2D-4Gh" firstAttribute="centerY" secondItem="ydW-Vx-6lv" secondAttribute="centerY" id="X2O-t2-u0i"/>
+                            <constraint firstItem="OwI-ub-uZv" firstAttribute="top" secondItem="4Ap-2D-4Gh" secondAttribute="bottom" constant="50" id="jmV-AU-O6w"/>
+                            <constraint firstItem="37V-ce-LA5" firstAttribute="top" secondItem="A1Q-kh-ATZ" secondAttribute="top" constant="40" id="mlQ-gC-bMO"/>
+                            <constraint firstItem="37V-ce-LA5" firstAttribute="leading" secondItem="A1Q-kh-ATZ" secondAttribute="leading" constant="30" id="r88-Nc-BUZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="T7j-cd-71m"/>
+                    <connections>
+                        <outlet property="coinShowLbl" destination="4Ap-2D-4Gh" id="gvC-v2-WMv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R6f-pj-Cu4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689.8550724637682" y="-55.580357142857139"/>
+        </scene>
+        <!--Dice View Controller-->
+        <scene sceneID="RGg-uN-zUk">
+            <objects>
+                <viewController storyboardIdentifier="DiceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="47s-cI-cwj" customClass="DiceViewController" customModule="TossCoinRollDiceGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U8R-hL-jsr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osU-QF-Gba">
+                                <rect key="frame" x="107" y="373" width="200" height="150"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="1XX-ff-Qt7"/>
+                                    <constraint firstAttribute="width" constant="200" id="hwx-nn-Flz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll the Dice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3m-1E-Zb6">
+                                <rect key="frame" x="30" y="138" width="354" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCm-4h-JRG">
+                                <rect key="frame" x="30" y="573" width="354" height="60"/>
+                                <color key="backgroundColor" red="0.1430499542" green="0.52315560569999997" blue="0.084801096610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="jE8-3e-qAp"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Through me!">
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="rolldiceBttn:" destination="47s-cI-cwj" eventType="touchUpInside" id="QpQ-Iv-ecA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iSc-Lf-VPg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fCm-4h-JRG" firstAttribute="top" secondItem="osU-QF-Gba" secondAttribute="bottom" constant="50" id="LmR-W1-Qcz"/>
+                            <constraint firstItem="n3m-1E-Zb6" firstAttribute="top" secondItem="iSc-Lf-VPg" secondAttribute="top" constant="50" id="O7L-fR-rEI"/>
+                            <constraint firstItem="iSc-Lf-VPg" firstAttribute="trailing" secondItem="n3m-1E-Zb6" secondAttribute="trailing" constant="30" id="OK9-T8-hTh"/>
+                            <constraint firstItem="n3m-1E-Zb6" firstAttribute="leading" secondItem="iSc-Lf-VPg" secondAttribute="leading" constant="30" id="bf5-GK-NYV"/>
+                            <constraint firstItem="iSc-Lf-VPg" firstAttribute="trailing" secondItem="fCm-4h-JRG" secondAttribute="trailing" constant="30" id="cgm-zd-SEh"/>
+                            <constraint firstItem="fCm-4h-JRG" firstAttribute="leading" secondItem="iSc-Lf-VPg" secondAttribute="leading" constant="30" id="g0m-iH-KuL"/>
+                            <constraint firstItem="osU-QF-Gba" firstAttribute="centerY" secondItem="U8R-hL-jsr" secondAttribute="centerY" id="l4f-PA-ZTQ"/>
+                            <constraint firstItem="osU-QF-Gba" firstAttribute="centerX" secondItem="U8R-hL-jsr" secondAttribute="centerX" id="uba-bq-LeE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dXO-Un-uyh"/>
+                    <connections>
+                        <outlet property="showDiceLbl" destination="osU-QF-Gba" id="grO-7Z-D55"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8QQ-m1-FcP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1710.144927536232" y="653.57142857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="meB-ri-4rP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W3z-Si-tNv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="A2b-bS-TDM">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CcE-fi-uQl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8b-se-Ajm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
