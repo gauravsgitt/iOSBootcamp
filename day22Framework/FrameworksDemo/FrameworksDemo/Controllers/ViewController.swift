@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         DispatchQueue.main.async {
             let event:EKEvent = EKEvent(eventStore: store)
             let startDate = self.dateData.date
-            print(startDate)
+//            print(startDate)
             let hours = Double(self.evHoursTF.text ?? "1")!
             let endDate = startDate.addingTimeInterval(hours * 60 * 60)
             event.title = self.evNameTF.text

@@ -56,8 +56,6 @@ class LoginViewController: UIViewController, ShowToastProtocol {
         }
         UserDefaults.standard.set(true, forKey: "isLogin")
         Utility.setRoot()
-        
-        
     }
     
 }

@@ -161,7 +161,7 @@
         <!--Login View Controller-->
         <scene sceneID="mKs-fb-myF">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="lRV-uE-Xqz" customClass="LoginViewController" customModule="iOSAssessment_23" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lRV-uE-Xqz" customClass="LoginViewController" customModule="iOSAssessment_23" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Krk-jY-aFa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,7 +285,7 @@
         <!--Recipies Detail-->
         <scene sceneID="epK-4J-KV7">
             <objects>
-                <viewController storyboardIdentifier="RecipiesDetailsViewController" id="wvk-Re-cD4" customClass="RecipiesDetailsViewController" customModule="iOSAssessment_23" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecipiesDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wvk-Re-cD4" customClass="RecipiesDetailsViewController" customModule="iOSAssessment_23" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2tt-32-BT9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -435,7 +435,7 @@
         <!--Food Tab View Controller-->
         <scene sceneID="Wmc-SU-KQh">
             <objects>
-                <tabBarController storyboardIdentifier="FoodTabViewController" automaticallyAdjustsScrollViewInsets="NO" id="O4b-fm-nd5" customClass="FoodTabViewController" customModule="iOSAssessment_23" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="FoodTabViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O4b-fm-nd5" customClass="FoodTabViewController" customModule="iOSAssessment_23" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1mD-ES-Mut">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
